@@ -1,0 +1,27 @@
+{
+  "name": "secure-api-authentication",
+  "version": "1.0.0",
+  "description": "Secure API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "nodemon": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Synic1/secure-api-authentication.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Synic1/secure-api-authentication/issues"
+  },
+  "homepage": "https://github.com/Synic1/secure-api-authentication#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "morgan": "^1.9.0"
+  }
+}
